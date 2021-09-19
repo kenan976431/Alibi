@@ -54,7 +54,7 @@
    let name = getQueryVariable('name');
    let school = getQueryVariable('school');
    let studentId = getQueryVariable('studentId');
-   nameRef.innerText = name || '王涵' + nameRef.innerText;
+   nameRef.innerText = (name || '王涵') + nameRef.innerText;
    schoolRef.innerText = school || '信息工程学院';
    studentIdRef.innerText = studentId || '330402199801100335';
  }
